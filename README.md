@@ -4,6 +4,10 @@
 
 ## 使用
 
+```bash
+composer require xiaodi/think-shopping-cart
+```
+
 ### 会话初始化
 
 `app\middleware.php`
