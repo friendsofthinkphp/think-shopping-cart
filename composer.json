@@ -1,0 +1,29 @@
+{
+    "name": "xiaodi/think-shopping-cart",
+    "description": "Shopping cart for ThinkPHP Application.",
+    "keywords": [
+        "shopping cart",
+        "shopping",
+        "thinkphp"
+    ],
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "xiaodi",
+            "email": "liangjinbiao@live.com"
+        }
+    ],
+    "require": {
+        "php":">=5.5"
+    },
+    "require-dev": {
+        "mockery/mockery": "~1.2",
+        "phpunit/phpunit": "~7.5"
+    },
+    "autoload": {
+        "psr-4": {
+            "xiaodi\\ShoppingCart\\": "src/"
+        }
+    },
+    "license": "MIT"
+}
