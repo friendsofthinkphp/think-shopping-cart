@@ -6,7 +6,7 @@ use think\Facade as BaseFacade;
 
 class Facade extends BaseFacade
 {
-    protected static function getFacadeAccessor()
+    protected static function getFacadeClass()
     {
         return Cart::class;
     }
